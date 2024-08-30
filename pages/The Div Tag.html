@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <p>
+        Div-elementet används oftast för att gruppera en sektion med text och heading. Tex:
+        </p>
+    
+        <div>
+            <h3>The div element</h3>
+            <p>The div element is a block element. It takes up all available width and comes with line breaks. Its often used to group sections together.
+            </p>        
+        </div>
+    
+        <div> 
+            <p>En div kan också centreras genom att använda inline Styles = style tagg, div tagg, {width: 300px; margin: auto;} avsluta style tag avsluta
+            </p>
+       </div>
+        
+      <!-- <style>
+        div {
+            width: 300px;
+            margin: auto;
+            }
+       </style> -->
+    
+    <p>Man kan också ha flera div bredvid varandra.</p>
+    
+       <div>
+        <h3>The div element</h3>
+        <p>The div element is a block element. It takes up all available width and comes with line breaks. Its often used to group sections together.
+        </p> 
+        </div>
+    
+        <div>
+        <h3>The div element</h3>
+        <p>The div element is a block element. It takes up all available width and comes with line breaks. Its often used to group sections together.
+        </p>
+        </div>  
+    
+        <div>
+        <h3>The div element</h3>
+        <p>The div element is a block element. It takes up all available width and comes with line breaks. Its often used to group sections together.
+        </p>        
+        </div>
+    
+        <p>
+        <h3>Anordna flera div bredvid varandra. Här använder jag grid. Försökte med flow men det funkar inte.
+        </h3>
+        </p>
+
+Obs! Fråga, detta funkar inte. 
+
+        <div class="div-elementet">
+        <h3>The div element</h3>
+        <p>The div element is a block element. It takes up all available width and comes with line breaks. Its often used to group sections together.
+        </p> 
+        </div>
+        
+        <div class="div-elementet">
+        <h3>The div element</h3>
+        <p>The div element is a block element. It takes up all available width and comes with line breaks. Its often used to group sections together.
+        </p>
+        </div>  
+        
+        <div class="div-elementet">
+        <h3>The div element</h3>
+        <p>The div element is a block element. It takes up all available width and comes with line breaks. Its often used to group sections together.
+        </p>        
+        </div>
+
+        <style>
+        .div-elementet {
+        display: grid;
+        grid-template-columns: 33% 33% 33%;
+        }
+        </style>
+
+<!--
+        <style>
+            .div-elementet {
+                width:100%;
+                overflow:auto; 
+            }
+            .div-elementet div {
+                width: 33%;
+                float: left;
+            }
+        </style>
+-->
+        
+    
+</body>
+</html>
